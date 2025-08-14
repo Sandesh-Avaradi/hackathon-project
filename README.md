@@ -28,28 +28,3 @@ Powered by:
 ```bash
 git clone https://github.com/your-username/studymate.git
 cd studymate
-
-→Create a virtual environment and activate it
-  python -m venv venv
-  # Windows
-  venv\Scripts\activate
-  # Mac/Linux
-  source venv/bin/activate
-→Install dependencies
- pip install -r requirements.txt
-→Requirements
- Your requirements.txt should contain:
- streamlit
- PyMuPDF
- transformers
- sentence-transformers
- huggingface_hub
-→Hugging Face Authentication
- Set your Hugging Face token in the environment variable:
- export HF_TOKEN=your_huggingface_token
- #Windows (PowerShell)
- setx HF_TOKEN "your_huggingface_token"
- Get your token from: https://huggingface.co/settings/tokens
- Usage
-→Run the app locally:
- streamlit run app.py
